@@ -14,6 +14,10 @@
 		9A38CA851C67078700C80E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A38CA831C67078700C80E50 /* LaunchScreen.storyboard */; };
 		9A38CA901C67078700C80E50 /* BarabaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38CA8F1C67078700C80E50 /* BarabaraTests.swift */; };
 		9A38CA9B1C67078700C80E50 /* BarabaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38CA9A1C67078700C80E50 /* BarabaraUITests.swift */; };
+		9A38CB581C6863F400C80E50 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A38CB561C6863F400C80E50 /* bar.png */; };
+		9A38CB591C6863F400C80E50 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A38CB571C6863F400C80E50 /* tail.png */; };
+		9A38CB5B1C686A6F00C80E50 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38CB5A1C686A6F00C80E50 /* GameViewController.swift */; };
+		9A38CB5D1C686AA100C80E50 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38CB5C1C686AA100C80E50 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9A38CA961C67078700C80E50 /* BarabaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A38CA9A1C67078700C80E50 /* BarabaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraUITests.swift; sourceTree = "<group>"; };
 		9A38CA9C1C67078700C80E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A38CB561C6863F400C80E50 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		9A38CB571C6863F400C80E50 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		9A38CB5A1C686A6F00C80E50 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9A38CB5C1C686AA100C80E50 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		9A38CA791C67078700C80E50 /* Barabara */ = {
 			isa = PBXGroup;
 			children = (
+				9A38CB561C6863F400C80E50 /* bar.png */,
+				9A38CB571C6863F400C80E50 /* tail.png */,
 				9A38CA7A1C67078700C80E50 /* AppDelegate.swift */,
 				9A38CA7C1C67078700C80E50 /* ViewController.swift */,
+				9A38CB5A1C686A6F00C80E50 /* GameViewController.swift */,
+				9A38CB5C1C686AA100C80E50 /* RankingViewController.swift */,
 				9A38CA7E1C67078700C80E50 /* Main.storyboard */,
 				9A38CA811C67078700C80E50 /* Assets.xcassets */,
 				9A38CA831C67078700C80E50 /* LaunchScreen.storyboard */,
@@ -230,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A38CA851C67078700C80E50 /* LaunchScreen.storyboard in Resources */,
+				9A38CB591C6863F400C80E50 /* tail.png in Resources */,
 				9A38CA821C67078700C80E50 /* Assets.xcassets in Resources */,
 				9A38CA801C67078700C80E50 /* Main.storyboard in Resources */,
+				9A38CB581C6863F400C80E50 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A38CA7D1C67078700C80E50 /* ViewController.swift in Sources */,
+				9A38CB5B1C686A6F00C80E50 /* GameViewController.swift in Sources */,
 				9A38CA7B1C67078700C80E50 /* AppDelegate.swift in Sources */,
+				9A38CB5D1C686AA100C80E50 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				9A38CAA11C67078700C80E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A38CAA21C67078700C80E50 /* Build configuration list for PBXNativeTarget "BarabaraTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				9A38CAA41C67078700C80E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A38CAA51C67078700C80E50 /* Build configuration list for PBXNativeTarget "BarabaraUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				9A38CAA71C67078700C80E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
